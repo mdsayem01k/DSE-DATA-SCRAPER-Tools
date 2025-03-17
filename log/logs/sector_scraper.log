@@ -1,0 +1,30 @@
+2025-03-17 10:59:56,975 - INFO - Starting scraping process
+2025-03-17 10:59:56,977 - INFO - Starting sector scraping process
+2025-03-17 10:59:57,234 - INFO - Successfully scraped 22 sectors
+2025-03-17 10:59:57,270 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 10:59:57,292 - INFO - Successfully stored data for 22 companies
+2025-03-17 10:59:57,294 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-17 10:59:57,295 - INFO - Scraping process completed successfully
+2025-03-17 11:00:52,431 - INFO - Starting scraping process
+2025-03-17 11:00:52,433 - INFO - Starting sector scraping process
+2025-03-17 11:00:52,708 - INFO - Successfully scraped 22 sectors
+2025-03-17 11:00:52,711 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:00:52,736 - INFO - Successfully stored data for 22 companies
+2025-03-17 11:00:52,737 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-17 11:00:52,740 - INFO - Scraping process completed successfully
+2025-03-17 11:02:38,952 - INFO - Starting scraping process
+2025-03-17 11:02:38,954 - INFO - Starting sector scraping process
+2025-03-17 11:02:39,202 - INFO - Successfully scraped 22 sectors
+2025-03-17 11:02:39,235 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:02:39,257 - INFO - Successfully stored data for 22 companies
+2025-03-17 11:02:39,259 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-17 11:02:39,260 - INFO - Scraping process completed successfully
+2025-03-17 11:02:40,968 - INFO - Scheduler activated - will run every day at 15:00
+2025-03-17 11:02:41,647 - INFO - Starting scraping process
+2025-03-17 11:02:41,649 - INFO - Starting sector scraping process
+2025-03-17 11:02:41,956 - INFO - Successfully scraped 22 sectors
+2025-03-17 11:02:41,958 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:02:42,000 - INFO - Successfully stored data for 22 companies
+2025-03-17 11:02:42,004 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-17 11:02:42,006 - INFO - Scraping process completed successfully
+2025-03-17 11:02:42,167 - INFO - Scheduler stopped

@@ -4,6 +4,10 @@ import tkinter as tk
 from tkinter import ttk
 import importlib
 
+# Make sure we add the current directory to the path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(current_dir)
+
 class TabbedApplication(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -46,19 +50,21 @@ class TabbedApplication(tk.Tk):
         
         # Create frames for each project
         self.share_scraper_frame = ttk.Frame(self.notebook)
+        self.sector_company_scraper_frame = ttk.Frame(self.notebook)
         self.sector_scraper_frame = ttk.Frame(self.notebook)
-        self.project3_frame = ttk.Frame(self.notebook)
-        self.project4_frame = ttk.Frame(self.notebook)
+        self.pe_scraper_frame = ttk.Frame(self.notebook)
         
         # Add the frames to the notebook with tab names
         self.notebook.add(self.share_scraper_frame, text="Share Scraper")
+        self.notebook.add(self.sector_company_scraper_frame, text="Sector-Company Scraper")
         self.notebook.add(self.sector_scraper_frame, text="Sector Scraper")
-        self.notebook.add(self.project3_frame, text="Project 3")
-        self.notebook.add(self.project4_frame, text="Project 4")
+        self.notebook.add(self.pe_scraper_frame, text="PE Ration Scraper")
         
         # Initialize each project's contents
         self.initialize_project(self.share_scraper_frame, 'share_ratio_scraper')
+        self.initialize_project(self.sector_company_scraper_frame, 'sector_wise_company')
         self.initialize_project(self.sector_scraper_frame, 'sector_scraper')
+        self.initialize_project(self.pe_scraper_frame, 'PE_scraper')
         
         # Override the tab appearance after creation
         # This helps eliminate any extra space above tabs
@@ -76,23 +82,61 @@ class TabbedApplication(tk.Tk):
     def initialize_project(self, scraper_frame, folder_name):
         """Initialize Scraper project"""
         try:
+            # Make sure the module directory exists
+            module_path = os.path.join(current_dir, folder_name)
+            if not os.path.exists(module_path):
+                raise ImportError(f"Module directory {module_path} does not exist")
+                
+            # Check if the module has an __init__.py file
+            init_file = os.path.join(module_path, "__init__.py")
+            if not os.path.exists(init_file):
+                # Create an empty __init__.py file
+                with open(init_file, 'w') as f:
+                    pass
+                    
             # Add the project directory to the path so we can import the module
-            module_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), folder_name)
-            sys.path.insert(0, module_path)
-            
-            # Dynamically import the module and access the ScraperApp class
-            scraper_module = importlib.import_module(folder_name)
-            ScraperApp = getattr(scraper_module, "ScraperApp")
-            
-            # Initialize the scraper app with the passed frame as the parent
-            self.scraper_app = ScraperApp(scraper_frame)
-            
+            if module_path not in sys.path:
+                sys.path.insert(0, module_path)
+                
+            # Import the module
+            try:
+                # First try to import the module by name
+                scraper_module = importlib.import_module(folder_name)
+            except ImportError:
+                # If that fails, try to import directly from the module path
+                module_name = os.path.basename(module_path)
+                spec = importlib.util.spec_from_file_location(
+                    module_name, 
+                    os.path.join(module_path, f"{module_name}.py")
+                )
+                if spec:
+                    scraper_module = importlib.util.module_from_spec(spec)
+                    spec.loader.exec_module(scraper_module)
+                else:
+                    raise ImportError(f"Cannot find module {folder_name}")
+                    
+            # Get the ScraperApp class from the module
+            if hasattr(scraper_module, "ScraperApp"):
+                ScraperApp = getattr(scraper_module, "ScraperApp")
+                self.scraper_app = ScraperApp(scraper_frame)
+            else:
+                raise ImportError(f"Module {folder_name} does not have a ScraperApp class")
+                
         except ImportError as e:
             # Show error if module couldn't be imported
-            print(f"Error importing Scraper module: {str(e)}\n\nMake sure project folder exists and ScraperApp is defined.")
+            print(f"Error importing {folder_name} module: {str(e)}")
             error_label = tk.Label(
-                scraper_frame,  # Fixed this to use the passed scraper_frame
-                text=f"Error importing Scraper module: {str(e)}\n\nMake sure project folder exists and ScraperApp is defined.",
+                scraper_frame,
+                text=f"Error importing {folder_name} module:\n{str(e)}\n\nMake sure project folder exists and ScraperApp is defined.",
+                fg="red"
+            )
+            error_label.pack(pady=100)
+        except Exception as e:
+            # Show any other errors
+            print(f"Error initializing {folder_name} module: {str(e)}")
+            error_label = tk.Label(
+                scraper_frame,
+                text=f"Error initializing {folder_name} module:\n{str(e)}",
                 fg="red"
             )
             error_label.pack(pady=100)
