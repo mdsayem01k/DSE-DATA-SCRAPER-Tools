@@ -1,0 +1,8 @@
+2025-03-17 11:31:10,629 - INFO - Starting scraping process
+2025-03-17 11:31:10,631 - INFO - Starting sector code scraping process
+2025-03-17 11:31:10,634 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:31:10,640 - INFO - Found 22 sectors to scrape
+2025-03-17 11:31:15,290 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:31:15,632 - INFO - Successfully stored data for 655 companies
+2025-03-17 11:31:15,634 - INFO - Scraping process completed successfully
+2025-03-17 11:31:15,634 - INFO - Scraping process completed successfully

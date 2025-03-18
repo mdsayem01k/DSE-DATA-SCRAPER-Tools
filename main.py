@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import importlib
 
+
 # Make sure we add the current directory to the path
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)

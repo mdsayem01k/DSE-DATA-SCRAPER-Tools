@@ -1,0 +1,18 @@
+2025-03-17 11:30:47,805 - INFO - Starting scraping process
+2025-03-17 11:30:47,807 - INFO - Starting scraping process
+2025-03-17 11:30:56,156 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-17 11:30:56,221 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 11:30:56,502 - INFO - Successfully stored data for 421 companies
+2025-03-17 11:30:56,503 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-17 11:30:56,504 - INFO - Scraping process completed successfully
+2025-03-17 13:39:18,274 - INFO - Starting scraping process
+2025-03-17 13:39:18,275 - INFO - Starting scraping process
+2025-03-17 13:39:21,489 - INFO - Scheduler activated - will run every day at 15:00
+2025-03-17 13:39:28,547 - INFO - Scheduler stopped
+2025-03-17 13:39:28,890 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-17 13:39:28,941 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 13:39:29,188 - INFO - Successfully stored data for 421 companies
+2025-03-17 13:39:29,190 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-17 13:39:29,190 - INFO - Scraping process completed successfully

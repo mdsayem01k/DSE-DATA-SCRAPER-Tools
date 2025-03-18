@@ -1,21 +1,12 @@
 import os
 import sys
 import requests
-import concurrent.futures
-import threading
-import time
-import tkinter as tk
-from tkinter import ttk, scrolledtext, messagebox
+
 from datetime import datetime
 from bs4 import BeautifulSoup
 import pandas as pd
 
 from BaseScraperApp import BaseScraperApp
-from log.scraper_log import LoggerSetup
-from scheduler.sheduler import ScraperScheduler
-from config.dbConfig import DatabaseManager
-from config.envConfig import EnvConfig
-from config.dbEdit import ConfigEditorWindow
 
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

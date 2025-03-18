@@ -1,0 +1,7 @@
+2025-03-17 15:23:39,100 - INFO - Created sample .env file. Please edit with your database details.
+2025-03-17 15:26:53,311 - INFO - Starting scraping process
+2025-03-17 15:26:53,313 - INFO - Starting scraping process
+2025-03-17 15:27:53,199 - INFO - Starting scraping process
+2025-03-17 15:27:53,201 - INFO - Starting scraping process
+2025-03-17 15:27:53,240 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-17 15:27:53,244 - INFO - Found 656 companies to scrape
