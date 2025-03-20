@@ -6,3 +6,47 @@
 2025-03-17 11:31:15,632 - INFO - Successfully stored data for 655 companies
 2025-03-17 11:31:15,634 - INFO - Scraping process completed successfully
 2025-03-17 11:31:15,634 - INFO - Scraping process completed successfully
+2025-03-18 10:41:04,832 - INFO - Starting scraping process
+2025-03-18 10:41:04,833 - INFO - Starting sector code scraping process
+2025-03-18 10:41:04,916 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:41:04,919 - ERROR - No sectors found to scrape
+2025-03-18 10:41:04,920 - INFO - Scraping process completed successfully
+2025-03-18 10:41:09,928 - INFO - Starting scraping process
+2025-03-18 10:41:09,930 - INFO - Starting sector code scraping process
+2025-03-18 10:41:09,934 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:41:09,937 - ERROR - No sectors found to scrape
+2025-03-18 10:41:09,941 - INFO - Scraping process completed successfully
+2025-03-18 10:44:15,552 - INFO - Starting scraping process
+2025-03-18 10:44:15,553 - INFO - Starting sector code scraping process
+2025-03-18 10:44:15,591 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:44:15,598 - INFO - Found 22 sectors to scrape
+2025-03-18 10:44:20,848 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:44:20,901 - ERROR - Error storing data: ('23000', '[23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Sector_Sy__secto__267ABA7A". The conflict occurred in database "IndexDB", table "dbo.Sector_Info", column \'sector_code\'. (547) (SQLExecDirectW); [23000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The statement has been terminated. (3621)')
+2025-03-18 10:44:20,903 - INFO - Scraping process completed successfully
+2025-03-18 10:44:20,906 - INFO - Scraping process completed successfully
+2025-03-18 10:48:58,247 - INFO - Starting scraping process
+2025-03-18 10:48:58,247 - INFO - Starting sector code scraping process
+2025-03-18 10:48:58,285 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:48:58,288 - INFO - Found 22 sectors to scrape
+2025-03-18 10:48:59,758 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:49:00,145 - INFO - Successfully stored data for 655 companies
+2025-03-18 10:49:00,146 - INFO - Scraping process completed successfully
+2025-03-18 10:49:00,148 - INFO - Scraping process completed successfully
+2025-03-20 09:31:29,004 - INFO - Scheduler activated - will run every day at 09:40
+2025-03-20 09:40:00,581 - INFO - Starting scraping process
+2025-03-20 09:40:00,584 - INFO - Starting sector code scraping process
+2025-03-20 09:40:00,717 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:40:00,724 - INFO - Found 22 sectors to scrape
+2025-03-20 09:40:01,490 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:40:01,828 - INFO - Successfully stored data for 655 companies
+2025-03-20 09:40:01,829 - INFO - Scraping process completed successfully
+2025-03-20 09:40:01,829 - INFO - Scraping process completed successfully
+2025-03-20 09:40:47,587 - INFO - Scheduler activated - will run every day at 09:48
+2025-03-20 09:48:00,064 - INFO - Starting scraping process
+2025-03-20 09:48:00,065 - INFO - Starting sector code scraping process
+2025-03-20 09:48:00,085 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:48:00,088 - INFO - Found 22 sectors to scrape
+2025-03-20 09:48:01,009 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:48:01,371 - INFO - Successfully stored data for 655 companies
+2025-03-20 09:48:01,372 - INFO - Scraping process completed successfully
+2025-03-20 09:48:01,374 - INFO - Scraping process completed successfully

@@ -7,3 +7,37 @@
 2025-03-17 11:34:14,055 - INFO - Successfully stored data for 656 companies
 2025-03-17 11:34:14,056 - INFO - Scraping process completed successfully
 2025-03-17 11:34:14,058 - INFO - Scraping process completed successfully
+2025-03-18 10:49:03,935 - INFO - Starting scraping process
+2025-03-18 10:49:03,937 - INFO - Starting scraping process
+2025-03-18 10:49:03,939 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:49:03,941 - ERROR - No companies found to scrape
+2025-03-18 10:49:03,943 - INFO - Scraping process completed successfully
+2025-03-18 10:49:11,879 - INFO - Starting scraping process
+2025-03-18 10:49:11,880 - INFO - Starting scraping process
+2025-03-18 10:49:11,884 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:49:11,888 - ERROR - No companies found to scrape
+2025-03-18 10:49:11,893 - INFO - Scraping process completed successfully
+2025-03-18 10:49:12,719 - INFO - Starting scraping process
+2025-03-18 10:49:12,720 - INFO - Starting scraping process
+2025-03-18 10:49:12,726 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:49:12,730 - ERROR - No companies found to scrape
+2025-03-18 10:49:12,738 - INFO - Scraping process completed successfully
+2025-03-18 10:59:32,442 - INFO - Starting scraping process
+2025-03-18 10:59:32,444 - INFO - Starting scraping process
+2025-03-18 10:59:32,465 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 10:59:32,468 - INFO - Found 655 companies to scrape
+2025-03-18 11:02:30,349 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-18 11:02:30,888 - INFO - Successfully stored data for 655 companies
+2025-03-18 11:02:30,890 - INFO - Scraping process completed successfully
+2025-03-18 11:02:30,895 - INFO - Scraping process completed successfully
+2025-03-20 09:31:01,733 - INFO - Scheduler activated - will run every day at 09:32
+2025-03-20 09:40:31,700 - INFO - Scheduler activated - will run every day at 09:41
+2025-03-20 09:41:00,595 - INFO - Starting scraping process
+2025-03-20 09:41:00,597 - INFO - Starting scraping process
+2025-03-20 09:41:00,650 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:41:00,654 - INFO - Found 655 companies to scrape
+2025-03-20 09:41:52,066 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 09:41:52,454 - INFO - Successfully stored data for 655 companies
+2025-03-20 09:41:52,455 - INFO - Scraping process completed successfully
+2025-03-20 09:41:52,456 - INFO - Scraping process completed successfully
+2025-03-20 09:43:10,914 - INFO - Scheduler stopped

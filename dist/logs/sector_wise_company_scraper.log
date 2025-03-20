@@ -1,0 +1,10 @@
+2025-03-20 10:09:30,124 - INFO - Scheduler activated - will run every day at 10:15
+2025-03-20 10:13:35,232 - INFO - Scheduler activated - will run every day at 10:17
+2025-03-20 10:17:00,180 - INFO - Starting scraping process
+2025-03-20 10:17:00,181 - INFO - Starting sector code scraping process
+2025-03-20 10:17:00,183 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 10:17:00,187 - INFO - Found 22 sectors to scrape
+2025-03-20 10:17:04,125 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 10:17:04,532 - INFO - Successfully stored data for 655 companies
+2025-03-20 10:17:04,533 - INFO - Scraping process completed successfully
+2025-03-20 10:17:04,537 - INFO - Scraping process completed successfully

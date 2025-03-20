@@ -138,7 +138,7 @@ class DatabaseManager:
                 return []
                     
             cursor = conn.cursor()
-            cursor.execute("SELECT sector_code, MAX(last_updated) AS last_updated FROM sector_info GROUP BY sector_code ORDER BY last_updated;")
+            cursor.execute("SELECT sector_code, MAX(last_updated) AS last_updated FROM Sector_Information GROUP BY sector_code ORDER BY last_updated;")
             sector_code = [row[0] for row in cursor.fetchall()]
             cursor.close()
             conn.close()

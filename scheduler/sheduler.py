@@ -11,6 +11,7 @@ class ScraperScheduler:
         self.scrape_callback = scrape_callback
         self.is_active = False
         self.schedule_thread = None
+        self.job = None  # Store reference to the scheduled job
     
     def start(self, scheduled_time):
         """Start the scheduler"""
@@ -22,11 +23,8 @@ class ScraperScheduler:
             
             self.is_active = True
             
-            # Clear existing schedule
-            schedule.clear()
+            self.job = schedule.every().day.at(scheduled_time).do(self.scrape_callback)# Clear existing schedule
             
-            # Schedule the job
-            schedule.every().day.at(scheduled_time).do(self.scrape_callback)
             
             # Start the scheduler in a background thread
             self.schedule_thread = threading.Thread(target=self.run_scheduler, daemon=True)
@@ -42,7 +40,8 @@ class ScraperScheduler:
     def stop(self):
         """Stop the scheduler"""
         self.is_active = False
-        schedule.clear()
+        if self.job:
+            schedule.cancel_job(self.job)  # Cancel only this job
         self.logger.info("Scheduler stopped")
     
     def run_scheduler(self):
