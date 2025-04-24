@@ -51,21 +51,6 @@ The application includes a user-friendly interface for scraping and scheduling t
 
 > 🛠 Built with `Tkinter` for a responsive and intuitive desktop interface.
 
-
-## Project Structure
-
-```
-DSE-SCAPER/
-├── scraper/             # Core scraper modules
-│   ├── __init__.py
-│   ├── dse_scraper.py   # Main scraper class
-│   └── utils.py         # Utility functions
-├── data/                # Directory for storing collected data
-├── examples/            # Example usage scripts
-├── LICENSE              # License information
-└── README.md            # Project documentation
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
