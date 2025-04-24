@@ -5,5 +5,5 @@ __pycache__/
 .spec
 hook-main.
 sdlc.txt
-build
-dist
+build/
+dist/
