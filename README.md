@@ -33,31 +33,24 @@ DSE-SCAPER is a tool designed to extract real-time and historical stock market d
    pip install -r requirements.txt
    ```
 
-## Usage
+## GUI Preview
 
-### Basic Scraping
+The application includes a user-friendly interface for scraping and scheduling tasks.
 
-To start scraping basic DSE data:
+![DSE Data Scraper GUI](path/to/screenshot.png)
 
-```python
-from scraper.dse_scraper import DSEScraper
+### GUI Features
 
-# Initialize the scraper
-scraper = DSEScraper()
+- **Tabbed Navigation**: Switch between modules like Share Scrape, Sector-Company Scrape, Sector Scrape, PE Ratio Scrape, and Company Scrape.
+- **Status Display**: Shows current status (e.g., Ready, Running) and elapsed time.
+- **Manual & Scheduled Scraping**:
+  - Click **Scrape Now** to manually trigger data scraping.
+  - Set a time and click **Start Scheduler** to automate scraping.
+- **Log Output**: View logs and scraping status directly in the application.
+- **Database Configuration**: Easily configure DB settings using the **Edit DB Config** button.
 
-# Get current market data
-market_data = scraper.get_market_data()
+> 🛠 Built with `Tkinter` for a responsive and intuitive desktop interface.
 
-# Get specific stock information
-stock_info = scraper.get_stock_info("SQUARETEXT")
-
-# Export data to CSV
-scraper.export_to_csv(market_data, "market_data.csv")
-```
-
-### Advanced Features
-
-For more advanced usage, refer to the examples in the `example.py` file or the documentation.
 
 ## Project Structure
 
