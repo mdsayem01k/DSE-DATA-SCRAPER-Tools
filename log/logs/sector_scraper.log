@@ -65,3 +65,83 @@
 2025-03-20 09:45:00,329 - INFO - Successfully stored data for 22 companies
 2025-03-20 09:45:00,331 - INFO - Scraping process completed successfully. Stored 22 sectors.
 2025-03-20 09:45:00,331 - INFO - Scraping process completed successfully
+2025-03-20 10:12:32,184 - INFO - Starting scraping process
+2025-03-20 10:12:32,370 - INFO - Starting sector scraping process
+2025-03-20 10:12:33,633 - INFO - Successfully scraped 22 sectors
+2025-03-20 10:12:34,623 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 10:12:37,328 - INFO - Successfully stored data for 22 companies
+2025-03-20 10:12:37,329 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-20 10:12:37,331 - INFO - Scraping process completed successfully
+2025-03-23 12:32:23,831 - INFO - Starting scraping process
+2025-03-23 12:32:23,833 - INFO - Starting sector scraping process
+2025-03-23 12:32:24,164 - INFO - Successfully scraped 22 sectors
+2025-03-23 12:32:24,167 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:32:24,200 - INFO - Successfully stored data for 22 companies
+2025-03-23 12:32:24,201 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-23 12:32:24,204 - INFO - Scraping process completed successfully
+2025-03-23 12:51:22,991 - INFO - Starting scraping process
+2025-03-23 12:51:22,993 - INFO - Starting sector scraping process
+2025-03-23 12:51:23,246 - INFO - Successfully scraped 22 sectors
+2025-03-23 12:51:23,250 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:51:23,269 - INFO - Successfully stored data for 22 companies
+2025-03-23 12:51:23,270 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-23 12:51:23,271 - INFO - Scraping process completed successfully
+2025-03-23 13:08:59,613 - INFO - Starting scraping process
+2025-03-23 13:08:59,615 - INFO - Starting sector scraping process
+2025-03-23 13:08:59,871 - INFO - Successfully scraped 22 sectors
+2025-03-23 13:08:59,875 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:08:59,895 - INFO - Successfully stored data for 22 companies
+2025-03-23 13:08:59,896 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-03-23 13:08:59,897 - INFO - Scraping process completed successfully
+2025-04-07 14:55:51,089 - INFO - Starting scraping process
+2025-04-07 14:55:51,091 - INFO - Starting sector scraping process
+2025-04-07 14:55:51,394 - INFO - Successfully scraped 22 sectors
+2025-04-07 14:55:51,414 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 14:55:51,427 - INFO - Successfully stored data for 22 companies
+2025-04-07 14:55:51,428 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-07 14:55:51,429 - INFO - Scraping process completed successfully
+2025-04-20 09:46:48,514 - INFO - Starting scraping process
+2025-04-20 09:46:48,516 - INFO - Starting sector scraping process
+2025-04-20 09:46:48,600 - INFO - Successfully scraped 22 sectors
+2025-04-20 09:46:48,634 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 09:46:48,634 - INFO - Deleting existing records from Sector_Information
+2025-04-20 09:46:48,644 - INFO - Inserting 22 new records
+2025-04-20 09:46:48,698 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 09:46:48,699 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 09:46:48,701 - INFO - Scraping process completed successfully
+2025-04-20 09:48:34,441 - INFO - Starting scraping process
+2025-04-20 09:48:34,443 - INFO - Starting sector scraping process
+2025-04-20 09:48:34,535 - INFO - Successfully scraped 22 sectors
+2025-04-20 09:48:34,552 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 09:48:34,552 - INFO - Deleting existing records from Sector_Information
+2025-04-20 09:48:34,554 - INFO - Inserting 22 new records
+2025-04-20 09:48:34,567 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 09:48:34,568 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 09:48:34,569 - INFO - Scraping process completed successfully
+2025-04-20 09:56:24,121 - INFO - Starting scraping process
+2025-04-20 09:56:24,123 - INFO - Starting sector scraping process
+2025-04-20 09:56:24,201 - INFO - Successfully scraped 22 sectors
+2025-04-20 09:56:24,226 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 09:56:24,226 - INFO - Deleting existing records from Sector_Information
+2025-04-20 09:56:24,231 - INFO - Inserting 22 new records
+2025-04-20 09:56:24,250 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 09:56:24,252 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 09:56:24,255 - INFO - Scraping process completed successfully
+2025-04-20 10:01:10,608 - INFO - Starting scraping process
+2025-04-20 10:01:10,610 - INFO - Starting sector scraping process
+2025-04-20 10:01:10,754 - INFO - Successfully scraped 22 sectors
+2025-04-20 10:01:10,789 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:01:10,790 - INFO - Deleting existing records from Sector_Information
+2025-04-20 10:01:10,790 - INFO - Inserting 22 new records
+2025-04-20 10:01:10,806 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 10:01:10,807 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 10:01:10,809 - INFO - Scraping process completed successfully
+2025-04-20 10:14:45,130 - INFO - Starting scraping process
+2025-04-20 10:14:45,131 - INFO - Starting sector scraping process
+2025-04-20 10:14:45,357 - INFO - Successfully scraped 22 sectors
+2025-04-20 10:14:45,395 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:14:45,395 - INFO - Deleting existing records from Sector_Information
+2025-04-20 10:14:45,398 - INFO - Inserting 22 new records
+2025-04-20 10:14:45,417 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 10:14:45,419 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 10:14:45,420 - INFO - Scraping process completed successfully

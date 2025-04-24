@@ -39,7 +39,7 @@ class ShareScraper:
             
             sectors = []
             
-            # Extract industry number and name from each link
+            # Extract industry number aacand name from each link
             for link in industry_links:
                 href = link.get('href', '')
                 
@@ -91,12 +91,12 @@ class SectorCodeScraperEngine(BaseScraperEngine):
             # Update progress if callback is set
             self.update_progress(len(sectors), len(sectors))
                 
-            # Store the scraped data
+            # Store the scraped data with delete-then-insert transaction
             insert_query = """
                 INSERT INTO Sector_Information (sector_code, sector_name, isActive, last_updated) 
                 VALUES (?, ?, ?, ?)
             """
-            self.db_manager.store_data(sector_data, insert_query)
+            self.db_manager.store_data(sector_data, insert_query, table_name="Sector_Information")
             
             self.logger.info(f"Scraping process completed successfully. Stored {len(sector_data)} sectors.")
         except Exception as e:

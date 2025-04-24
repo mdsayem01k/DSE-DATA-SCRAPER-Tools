@@ -66,11 +66,20 @@ class BaseScraperEngine:
         return False
     
     def safe_float(self, value):
-        """Convert string to float safely, handling empty values and formatting."""
-        if not value or value.lower() in ['n/a', '']:
+        """Convert value to float safely, returning NULL if conversion fails"""
+        if value is None:
             return None
-            
+        
+        # Remove any commas, percentage signs, etc.
+        if isinstance(value, str):
+            value = value.replace(',', '').strip()
+            # Handle 'N/A', '--', '-', etc.
+            if value in ('N/A', '--', '-', '', 'NA', 'n/a'):
+                return None
+        
         try:
-            return float(value.replace(',', '').replace(' ', ''))
+            return float(value)
         except (ValueError, TypeError):
+            # Log the problematic value
+            self.logger.warning(f"Could not convert '{value}' to float")
             return None

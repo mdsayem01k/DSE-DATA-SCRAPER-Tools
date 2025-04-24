@@ -34,3 +34,144 @@
 2025-03-20 09:43:00,955 - INFO - Successfully stored data for 421 companies
 2025-03-20 09:43:00,957 - INFO - Scraping process completed successfully. Stored 421 rows of data.
 2025-03-20 09:43:00,957 - INFO - Scraping process completed successfully
+2025-03-23 12:32:09,504 - INFO - Starting scraping process
+2025-03-23 12:32:09,508 - INFO - Starting scraping process
+2025-03-23 12:32:10,163 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 12:32:10,333 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:32:10,344 - ERROR - Error storing data: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2025-03-23 12:32:10,345 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 12:32:10,346 - INFO - Scraping process completed successfully
+2025-03-23 12:51:05,127 - INFO - Starting scraping process
+2025-03-23 12:51:05,129 - INFO - Starting scraping process
+2025-03-23 12:51:15,171 - ERROR - Request error: HTTPSConnectionPool(host='www.dsebd.org', port=443): Read timed out. (read timeout=10)
+2025-03-23 12:51:15,172 - WARNING - No data scraped
+2025-03-23 12:51:15,181 - INFO - Scraping process completed successfully
+2025-03-23 12:52:22,366 - INFO - Starting scraping process
+2025-03-23 12:52:22,368 - INFO - Starting scraping process
+2025-03-23 12:52:23,081 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 12:52:23,156 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:52:23,160 - ERROR - Error storing data: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2025-03-23 12:52:23,161 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 12:52:23,161 - INFO - Scraping process completed successfully
+2025-03-23 13:03:10,636 - INFO - Starting scraping process
+2025-03-23 13:03:10,637 - INFO - Starting scraping process
+2025-03-23 13:03:15,369 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 13:03:15,398 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:03:15,405 - ERROR - Error storing data: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2025-03-23 13:03:15,405 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 13:03:15,406 - INFO - Scraping process completed successfully
+2025-03-23 13:05:52,568 - INFO - Starting scraping process
+2025-03-23 13:05:52,570 - INFO - Starting scraping process
+2025-03-23 13:06:02,050 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 13:06:02,054 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,055 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,058 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,061 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,064 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,069 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,073 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,076 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,080 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,084 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,088 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,092 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,097 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,099 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,103 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,109 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,114 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,119 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,125 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,132 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,137 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,145 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,150 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,155 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,160 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,165 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,171 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,176 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,181 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,186 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,191 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,196 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,201 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,207 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,212 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,213 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,215 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,217 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,219 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,220 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,221 - WARNING - Could not convert '-' to float
+2025-03-23 13:06:02,260 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:06:02,264 - ERROR - Error storing data: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Error converting data type nvarchar to numeric. (8114) (SQLExecDirectW)')
+2025-03-23 13:06:02,274 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 13:06:02,283 - INFO - Scraping process completed successfully
+2025-03-23 13:07:11,094 - INFO - Starting scraping process
+2025-03-23 13:07:11,094 - INFO - Starting scraping process
+2025-03-23 13:07:11,839 - INFO - Successfully scraped 0 rows of data.
+
+2025-03-23 13:07:11,840 - WARNING - No data scraped
+2025-03-23 13:07:11,841 - INFO - Scraping process completed successfully
+2025-03-23 13:07:25,694 - INFO - Starting scraping process
+2025-03-23 13:07:25,696 - INFO - Starting scraping process
+2025-03-23 13:07:26,449 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 13:07:26,450 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,453 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,454 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,455 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,456 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,458 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,459 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,460 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,461 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,462 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,462 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,463 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,464 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,465 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,466 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,467 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,468 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,469 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,473 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,476 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,480 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,488 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,493 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,499 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,504 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,509 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,515 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,519 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,525 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,526 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,531 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,536 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,541 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,547 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,552 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,557 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,563 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,568 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,573 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,578 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,584 - WARNING - Could not convert '-' to float
+2025-03-23 13:07:26,623 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:07:26,954 - INFO - Successfully stored data for 421 companies
+2025-03-23 13:07:26,955 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 13:07:26,959 - INFO - Scraping process completed successfully
+2025-03-23 13:08:52,789 - INFO - Starting scraping process
+2025-03-23 13:08:52,791 - INFO - Starting scraping process
+2025-03-23 13:08:53,633 - INFO - Successfully scraped 421 rows of data.
+
+2025-03-23 13:08:53,696 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:08:53,986 - INFO - Successfully stored data for 421 companies
+2025-03-23 13:08:53,987 - INFO - Scraping process completed successfully. Stored 421 rows of data.
+2025-03-23 13:08:53,989 - INFO - Scraping process completed successfully

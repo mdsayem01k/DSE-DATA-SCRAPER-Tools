@@ -1,1 +1,15 @@
-2025-03-20 10:09:23,108 - INFO - Scheduler activated - will run every day at 10:13
+2025-04-20 10:58:52,676 - INFO - Starting scraping process
+2025-04-20 10:58:52,678 - INFO - Starting sector scraping process
+2025-04-20 10:58:52,997 - INFO - Successfully scraped 22 sectors
+2025-04-20 10:59:42,426 - ERROR - Database connection error: ('08001', '[08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]SQL Server does not exist or access denied. (17) (SQLDriverConnect); [08001] [Microsoft][ODBC SQL Server Driver][DBNETLIB]ConnectionOpen (Connect()). (53)')
+2025-04-20 10:59:44,706 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 10:59:44,706 - INFO - Scraping process completed successfully
+2025-04-20 11:06:17,236 - INFO - Starting scraping process
+2025-04-20 11:06:17,237 - INFO - Starting sector scraping process
+2025-04-20 11:06:17,559 - INFO - Successfully scraped 22 sectors
+2025-04-20 11:06:17,562 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 11:06:17,563 - INFO - Deleting existing records from Sector_Information
+2025-04-20 11:06:17,567 - INFO - Inserting 22 new records
+2025-04-20 11:06:17,588 - INFO - Transaction committed successfully: 22 records stored
+2025-04-20 11:06:17,589 - INFO - Scraping process completed successfully. Stored 22 sectors.
+2025-04-20 11:06:17,591 - INFO - Scraping process completed successfully

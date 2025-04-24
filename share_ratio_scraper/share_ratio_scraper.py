@@ -38,7 +38,7 @@ class ShareScraper:
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             }
             
-            response = requests.get(url, headers=headers, timeout=10)
+            response = requests.get(url, headers=headers, timeout=60)
             
             if response.status_code != 200:
                 self.logger.warning(f"Failed to fetch data for {company}: HTTP {response.status_code}")
@@ -143,7 +143,7 @@ class ShareRatioScraperEngine(BaseScraperEngine):
                 (company, total_share, Sponsor, Govt, Institute, Foreign_share, public_share, scraping_date)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """
-            self.db_manager.store_data(company_shares,insert_query)
+            self.db_manager.store_data(company_shares,insert_query,table_name="Symbol_Share")
             
             self.logger.info("Scraping process completed successfully")
         except Exception as e:

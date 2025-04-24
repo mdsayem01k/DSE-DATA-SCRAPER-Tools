@@ -13,7 +13,7 @@ class TabbedApplication(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("DSE DATA SCRAPER")
-        self.geometry("800x600")
+        self.geometry("900x600")
         
         # Set the window background to match your application
         self.configure(bg="#f0f0f0")
@@ -54,18 +54,21 @@ class TabbedApplication(tk.Tk):
         self.sector_company_scraper_frame = ttk.Frame(self.notebook)
         self.sector_scraper_frame = ttk.Frame(self.notebook)
         self.pe_scraper_frame = ttk.Frame(self.notebook)
+        self.company_scraper_frame = ttk.Frame(self.notebook)
         
         # Add the frames to the notebook with tab names
         self.notebook.add(self.share_scraper_frame, text="Share Scraper")
         self.notebook.add(self.sector_company_scraper_frame, text="Sector-Company Scraper")
         self.notebook.add(self.sector_scraper_frame, text="Sector Scraper")
         self.notebook.add(self.pe_scraper_frame, text="PE Ration Scraper")
+        self.notebook.add(self.company_scraper_frame, text="Company Scraper")
         
         # Initialize each project's contents
         self.initialize_project(self.share_scraper_frame, 'share_ratio_scraper')
         self.initialize_project(self.sector_company_scraper_frame, 'sector_wise_company')
         self.initialize_project(self.sector_scraper_frame, 'sector_scraper')
         self.initialize_project(self.pe_scraper_frame, 'PE_scraper')
+        self.initialize_project(self.company_scraper_frame,'company_scraper')
         
         # Override the tab appearance after creation
         # This helps eliminate any extra space above tabs

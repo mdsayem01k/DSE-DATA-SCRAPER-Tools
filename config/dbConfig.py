@@ -121,7 +121,7 @@ class DatabaseManager:
                 return []
                 
             cursor = conn.cursor()
-            cursor.execute("SELECT company FROM Symbol_List")
+            cursor.execute("SELECT distinct company_symbol FROM Company_Information")
             companies = [row[0] for row in cursor.fetchall()]
             cursor.close()
             conn.close()
@@ -147,11 +147,61 @@ class DatabaseManager:
             self.logger.error(f"Error fetching company list: {str(e)}")
             return []
         
-    def store_data(self, company_shares,insert_query):
-        """Store scraped data in the database"""
+    def store_data(self, company_shares, insert_query, table_name=None):
+        """Store scraped data in the database with proper transaction management
+        
+        This function implements proper ACID transaction handling:
+        1. Deletes all existing records from the target table
+        2. Inserts new data
+        3. Ensures both operations succeed or fail together (atomicity)
+        """
         if not company_shares:
             self.logger.warning("No data to store")
             return
+        
+        conn = None
+        try:
+            conn = self.get_connection()
+            if not conn:
+                return
+                
+            # Disable auto-commit to manage our own transaction
+            conn.autocommit = False
+            cursor = conn.cursor()
+            
+            # Start transaction
+            if table_name:
+                # Delete existing records first
+                delete_query = f"DELETE FROM {table_name}"
+                self.logger.info(f"Deleting existing records from {table_name}")
+                cursor.execute(delete_query)
+                
+            # Insert new data
+            self.logger.info(f"Inserting {len(company_shares)} new records")
+            cursor.executemany(insert_query, company_shares)
+            
+            # Commit the transaction (both delete and insert)
+            conn.commit()
+            self.logger.info(f"Transaction committed successfully: {len(company_shares)} records stored")
+            
+        except Exception as e:
+            # Rollback transaction on error
+            if conn:
+                conn.rollback()
+            self.logger.error(f"Transaction failed and rolled back: {str(e)}")
+            raise
+        finally:
+            # Ensure resources are closed properly
+            if conn:
+                try:
+                    if cursor:
+                        cursor.close()
+                    conn.close()
+                except Exception as close_error:
+                    self.logger.error(f"Error closing database connection: {str(close_error)}")
+
+    def store_mds_data(self,insert_query):
+        """Store scraped data in the database"""
         
         try:
             conn = self.get_connection()
@@ -162,10 +212,10 @@ class DatabaseManager:
             
             # Insert data into Symbol_Share table
            
-            cursor.executemany(insert_query, company_shares)
+            cursor.executemany(insert_query)
             conn.commit()
             
-            self.logger.info(f"Successfully stored data for {len(company_shares)} companies")
+            self.logger.info(f"Successfully stored mds data")
             
             cursor.close()
             conn.close()

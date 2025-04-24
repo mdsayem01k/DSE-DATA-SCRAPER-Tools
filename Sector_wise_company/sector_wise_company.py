@@ -114,7 +114,7 @@ class SectorCompanyScraperEngine(BaseScraperEngine):
                 (sector_code, company, last_updated)
                 VALUES (?, ?, ?)
             """
-            self.db_manager.store_data(sector_wise_company, insert_query)
+            self.db_manager.store_data(sector_wise_company, insert_query,table_name="Sector_Symbol")
             
             self.logger.info("Scraping process completed successfully")
         except Exception as e:

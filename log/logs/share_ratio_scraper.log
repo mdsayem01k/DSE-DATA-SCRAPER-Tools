@@ -41,3 +41,77 @@
 2025-03-20 09:41:52,455 - INFO - Scraping process completed successfully
 2025-03-20 09:41:52,456 - INFO - Scraping process completed successfully
 2025-03-20 09:43:10,914 - INFO - Scheduler stopped
+2025-03-20 10:12:21,633 - INFO - Starting scraping process
+2025-03-20 10:12:21,635 - INFO - Starting scraping process
+2025-03-20 10:12:21,669 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 10:12:21,672 - INFO - Found 655 companies to scrape
+2025-03-20 10:14:31,394 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-20 10:14:31,726 - INFO - Successfully stored data for 655 companies
+2025-03-20 10:14:31,728 - INFO - Scraping process completed successfully
+2025-03-20 10:14:31,729 - INFO - Scraping process completed successfully
+2025-03-23 12:32:34,647 - INFO - Starting scraping process
+2025-03-23 12:32:34,649 - INFO - Starting scraping process
+2025-03-23 12:32:34,650 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:32:34,652 - ERROR - Error fetching company list: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Symbol_List'. (208) (SQLExecDirectW)")
+2025-03-23 12:32:34,653 - ERROR - No companies found to scrape
+2025-03-23 12:32:34,658 - INFO - Scraping process completed successfully
+2025-03-23 12:33:22,606 - INFO - Starting scraping process
+2025-03-23 12:33:22,607 - INFO - Starting scraping process
+2025-03-23 12:33:22,641 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:33:22,642 - ERROR - Error fetching company list: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Symbol_List'. (208) (SQLExecDirectW)")
+2025-03-23 12:33:22,643 - ERROR - No companies found to scrape
+2025-03-23 12:33:22,647 - INFO - Scraping process completed successfully
+2025-03-23 12:51:28,223 - INFO - Starting scraping process
+2025-03-23 12:51:28,225 - INFO - Starting scraping process
+2025-03-23 12:51:28,228 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:51:28,230 - ERROR - Error fetching company list: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'Symbol_List'. (208) (SQLExecDirectW)")
+2025-03-23 12:51:28,231 - ERROR - No companies found to scrape
+2025-03-23 12:51:28,236 - INFO - Scraping process completed successfully
+2025-03-23 12:52:29,743 - INFO - Starting scraping process
+2025-03-23 12:52:29,745 - INFO - Starting scraping process
+2025-03-23 12:52:29,747 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:52:29,755 - INFO - Found 1310 companies to scrape
+2025-03-23 13:09:10,989 - INFO - Starting scraping process
+2025-03-23 13:09:10,991 - INFO - Starting scraping process
+2025-03-23 13:09:10,992 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:09:11,002 - INFO - Found 655 companies to scrape
+2025-03-23 13:11:51,957 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:11:52,384 - INFO - Successfully stored data for 655 companies
+2025-03-23 13:11:52,385 - INFO - Scraping process completed successfully
+2025-03-23 13:11:52,389 - INFO - Scraping process completed successfully
+2025-04-07 12:32:36,572 - INFO - Starting scraping process
+2025-04-07 12:32:36,574 - INFO - Starting scraping process
+2025-04-07 12:32:36,703 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 12:32:36,714 - INFO - Found 656 companies to scrape
+2025-04-07 12:35:24,469 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 12:35:24,848 - INFO - Successfully stored data for 656 companies
+2025-04-07 12:35:24,849 - INFO - Scraping process completed successfully
+2025-04-07 12:35:24,850 - INFO - Scraping process completed successfully
+2025-04-20 09:43:29,245 - INFO - Starting scraping process
+2025-04-20 09:43:29,245 - INFO - Starting scraping process
+2025-04-20 09:43:29,700 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 09:43:29,784 - INFO - Found 656 companies to scrape
+2025-04-20 09:44:12,884 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 09:44:12,885 - INFO - Inserting 656 new records
+2025-04-20 09:44:13,308 - INFO - Transaction committed successfully: 656 records stored
+2025-04-20 09:44:13,309 - INFO - Scraping process completed successfully
+2025-04-20 09:44:13,310 - INFO - Scraping process completed successfully
+2025-04-20 10:01:50,719 - INFO - Starting scraping process
+2025-04-20 10:01:50,721 - INFO - Starting scraping process
+2025-04-20 10:01:50,724 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:01:50,732 - INFO - Found 656 companies to scrape
+2025-04-20 10:03:07,309 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:03:07,309 - INFO - Inserting 656 new records
+2025-04-20 10:03:07,801 - INFO - Transaction committed successfully: 656 records stored
+2025-04-20 10:03:07,802 - INFO - Scraping process completed successfully
+2025-04-20 10:03:07,805 - INFO - Scraping process completed successfully
+2025-04-20 10:14:49,418 - INFO - Starting scraping process
+2025-04-20 10:14:49,420 - INFO - Starting scraping process
+2025-04-20 10:14:49,423 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:14:49,446 - INFO - Found 657 companies to scrape
+2025-04-20 10:16:59,906 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:16:59,906 - INFO - Deleting existing records from Symbol_Share
+2025-04-20 10:16:59,927 - INFO - Inserting 657 new records
+2025-04-20 10:17:00,230 - INFO - Transaction committed successfully: 657 records stored
+2025-04-20 10:17:00,231 - INFO - Scraping process completed successfully
+2025-04-20 10:17:00,233 - INFO - Scraping process completed successfully

@@ -50,3 +50,31 @@
 2025-03-20 09:48:01,371 - INFO - Successfully stored data for 655 companies
 2025-03-20 09:48:01,372 - INFO - Scraping process completed successfully
 2025-03-20 09:48:01,374 - INFO - Scraping process completed successfully
+2025-03-23 12:32:26,919 - INFO - Starting scraping process
+2025-03-23 12:32:26,921 - INFO - Starting sector code scraping process
+2025-03-23 12:32:26,923 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:32:26,935 - INFO - Found 22 sectors to scrape
+2025-03-23 12:32:31,945 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:32:32,325 - INFO - Successfully stored data for 655 companies
+2025-03-23 12:32:32,326 - INFO - Scraping process completed successfully
+2025-03-23 12:32:32,328 - INFO - Scraping process completed successfully
+2025-03-23 13:09:02,949 - INFO - Starting scraping process
+2025-03-23 13:09:02,951 - INFO - Starting sector code scraping process
+2025-03-23 13:09:02,952 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:09:02,956 - INFO - Found 22 sectors to scrape
+2025-03-23 13:09:07,728 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:09:08,122 - INFO - Successfully stored data for 655 companies
+2025-03-23 13:09:08,124 - INFO - Scraping process completed successfully
+2025-03-23 13:09:08,125 - INFO - Scraping process completed successfully
+2025-04-07 14:54:28,177 - INFO - Starting scraping process
+2025-04-07 14:54:28,179 - INFO - Starting sector code scraping process
+2025-04-07 14:54:28,197 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 14:54:28,201 - INFO - Found 22 sectors to scrape
+2025-04-07 14:54:33,406 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 14:54:33,751 - INFO - Successfully stored data for 656 companies
+2025-04-07 14:54:33,752 - INFO - Scraping process completed successfully
+2025-04-07 14:54:33,757 - INFO - Scraping process completed successfully
+2025-04-20 09:43:07,429 - INFO - Starting scraping process
+2025-04-20 09:43:07,431 - INFO - Starting sector scraping process
+2025-04-20 09:43:07,432 - ERROR - Error in scraping process: 'ShareScraper' object has no attribute 'scrape_sector_data'
+2025-04-20 09:43:07,433 - INFO - Scraping process completed successfully

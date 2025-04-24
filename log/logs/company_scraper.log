@@ -1,0 +1,47 @@
+2025-03-23 12:48:04,631 - INFO - Starting scraping process
+2025-03-23 12:48:04,633 - INFO - Starting company scraping process
+2025-03-23 12:48:05,092 - INFO - Successfully scraped 655 companies
+2025-03-23 12:48:05,133 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:48:05,475 - INFO - Successfully stored data for 655 companies
+2025-03-23 12:48:05,476 - INFO - Company scraping process completed successfully. Stored 655 companies.
+2025-03-23 12:48:05,478 - INFO - Scraping process completed successfully
+2025-03-23 12:49:33,848 - INFO - Scheduler activated - will run every day at 12:51
+2025-03-23 12:51:00,894 - INFO - Starting scraping process
+2025-03-23 12:51:00,896 - INFO - Starting company scraping process
+2025-03-23 12:51:01,245 - INFO - Successfully scraped 655 companies
+2025-03-23 12:51:01,267 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 12:51:01,627 - INFO - Successfully stored data for 655 companies
+2025-03-23 12:51:01,629 - INFO - Company scraping process completed successfully. Stored 655 companies.
+2025-03-23 12:51:01,634 - INFO - Scraping process completed successfully
+2025-03-23 13:03:06,868 - INFO - Starting scraping process
+2025-03-23 13:03:06,871 - INFO - Starting company scraping process
+2025-03-23 13:03:07,355 - INFO - Successfully scraped 655 companies
+2025-03-23 13:03:07,428 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-03-23 13:03:07,757 - INFO - Successfully stored data for 655 companies
+2025-03-23 13:03:07,758 - INFO - Company scraping process completed successfully. Stored 655 companies.
+2025-03-23 13:03:07,760 - INFO - Scraping process completed successfully
+2025-04-07 14:53:07,993 - INFO - Starting scraping process
+2025-04-07 14:53:07,995 - INFO - Starting company scraping process
+2025-04-07 14:53:08,395 - INFO - Successfully scraped 656 companies
+2025-04-07 14:53:08,468 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-07 14:53:08,759 - INFO - Successfully stored data for 656 companies
+2025-04-07 14:53:08,760 - INFO - Company scraping process completed successfully. Stored 656 companies.
+2025-04-07 14:53:08,761 - INFO - Scraping process completed successfully
+2025-04-20 10:08:42,483 - INFO - Starting scraping process
+2025-04-20 10:08:42,486 - INFO - Starting company scraping process
+2025-04-20 10:08:42,906 - INFO - Successfully scraped 657 companies
+2025-04-20 10:08:42,946 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:08:42,946 - INFO - Deleting existing records from Company_Information
+2025-04-20 10:08:42,950 - INFO - Inserting 657 new records
+2025-04-20 10:08:43,396 - INFO - Transaction committed successfully: 657 records stored
+2025-04-20 10:08:43,397 - INFO - Company scraping process completed successfully. Stored 657 companies.
+2025-04-20 10:08:43,399 - INFO - Scraping process completed successfully
+2025-04-20 10:09:20,539 - INFO - Starting scraping process
+2025-04-20 10:09:20,541 - INFO - Starting company scraping process
+2025-04-20 10:09:20,806 - INFO - Successfully scraped 657 companies
+2025-04-20 10:09:20,815 - INFO - Connected using {ODBC Driver 17 for SQL Server}
+2025-04-20 10:09:20,816 - INFO - Deleting existing records from Company_Information
+2025-04-20 10:09:20,824 - INFO - Inserting 657 new records
+2025-04-20 10:09:22,995 - INFO - Transaction committed successfully: 657 records stored
+2025-04-20 10:09:22,996 - INFO - Company scraping process completed successfully. Stored 657 companies.
+2025-04-20 10:09:22,998 - INFO - Scraping process completed successfully
