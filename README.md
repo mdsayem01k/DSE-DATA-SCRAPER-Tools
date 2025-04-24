@@ -8,11 +8,10 @@ DSE-SCAPER is a tool designed to extract real-time and historical stock market d
 
 ## Features
 
-- Scrape current stock prices and trading information
-- Extract company information and performance metrics
-- Generate historical stock data for analysis
-- Export data to CSV format for further processing
-- Visualize stock trends and market movements
+- **Comprehensive Data Extraction**: Gathers detailed information on listed companies, sectors, share ratios, and PE ratios.
+- **Modular Architecture**: Organized into distinct modules for scalability and maintainability.
+- **Scheduled Scraping**: Automates data collection at specified intervals using the integrated scheduler.
+- **Logging Mechanism**: Maintains logs for monitoring and debugging purposes.
 
 ## Installation
 
