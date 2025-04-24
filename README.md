@@ -37,7 +37,7 @@ DSE-SCAPER is a tool designed to extract real-time and historical stock market d
 
 The application includes a user-friendly interface for scraping and scheduling tasks.
 
-![DSE Data Scraper GUI](path/to/screenshot.png)
+![DSE Data Scraper GUI](DSE_SCRAPER.PNG)
 
 ### GUI Features
 
