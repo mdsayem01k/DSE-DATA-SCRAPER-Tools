@@ -4,15 +4,18 @@ A Python-based web scraper for collecting and analyzing stock data from the Dhak
 
 ## Overview
 
-DSE-SCAPER is a tool designed to extract real-time and historical stock market data from the Dhaka Stock Exchange website. This project provides various utilities for data collection, processing, and analysis of DSE listed companies.
+DSE SCAPER is a Python-based web scraping tool designed to collect essential stock market data from the Dhaka Stock Exchange (DSE). This project automates the extraction of company profiles, sector lists, PE ratios, and shareholding patterns, making it easy for investors, analysts, and researchers to gather financial insights.
+
 
 ## Features
+- **PE Scraper**: Automatically gathers detailed information on listed companies' Price-to-Earnings (PE) ratios from DSE, helping in stock valuation analysis.
 
-- **Comprehensive Data Extraction**: Gathers detailed information on listed companies, sectors, share ratios, and PE ratios.
-- **Modular Architecture**: Organized into distinct modules for scalability and maintainability.
-- **Scheduled Scraping**: Automates data collection at specified intervals using the integrated scheduler.
-- **Logging Mechanism**: Maintains logs for monitoring and debugging purposes.
+- **Company Scraper**: Scrapes a complete list of all companies listed on the Dhaka Stock Exchange (DSE) with key details, useful for market research and investment strategies.
 
+- **Sector Scraper**: Extracts all sector names and their related data from DSE, aiding in sector-wise investment analysis.
+
+- **Share Ratio Scraper**: Collects comprehensive data about each company's total shares, along with a breakdown of ownership among sponsors, government, institutions, and public shareholders.
+  
 ## Installation
 
 ### Prerequisites
